@@ -1,0 +1,202 @@
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1440px;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,73,121,1) 44%, rgba(10,147,175,1) 68%);
+}
+.index {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 61, 152);
+    border-radius: 10px;
+    
+}
+
+.index-logo img {
+   width: 180px;
+    height: 125px;
+    border-radius: 200px;
+    padding: 5px;
+    margin-left: -90px;
+}
+
+.index-link ul {
+    display: flex;
+    gap: 200px;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.index-link ul li  a {
+    text-decoration: none;
+    color: black;
+}
+
+.index-link ul li a:hover {
+    color: rgb(228, 228, 228);
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.car h1 {
+    color: rgb(5, 27, 51);
+}
+
+.porsh {
+    display: flex;
+    margin-top: 75px;
+}
+
+.porsh-img img {
+    border-radius: 20px;
+    width: 800px;
+}
+
+.porsh-text p{
+    margin-left: 250px;
+    width: 333px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+  
+}
+
+
+.mers {
+    display: flex;
+    margin-top: 80px;
+}
+
+.mers-img img {
+    border-radius: 20px;
+    margin-left: 300px;
+    width: 598px;
+    height: 381px;
+}
+
+.mers-text p{
+  
+    width: 515px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+.pdp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 100px;
+    margin-left: -400px;
+}
+
+.pdp-ism h4 {
+    font-size: 15px;
+    color: rgb(6, 6, 6);
+    text-transform: uppercase;
+}
+
+.pdp-phone h4 {
+    font-size: 15px;
+    color: rgb(4, 4, 4);
+    text-transform: uppercase;
+}
+
+.pdp-text {
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 27, 51);
+    margin-top: 100px;
+    background-image: url(./thumb__360_250_0_0_crop__360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 283px;
+    border-radius: 10px;
+
+}
+
+
+.asus  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+.asus-img-1  img{
+    width: 600px;
+    height: 374px;
+     border-radius: 77px
+}
+
+
+.asus-img-2  img{
+    width: 500px;
+    height: 274px;
+    border-radius: 77px
+}
+
+.rolex {
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 27, 51);
+}
+
+
+.book {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-text p {
+    width: 374px;
+    margin-left: 150px;
+    background-color: rgb(2, 27, 102);
+    color: rgb(254, 254, 254);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.book-text-2 p {
+    width: 374px;
+    margin-right: 170px;
+    background-color: rgb(2, 27, 102);
+    color: rgb(254, 254, 254);
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.envi  {
+    margin-top: 100px;
+    background-color: beige;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.envi h1 {
+    
+    color: black;
+}
+
+.envi h2 {
+    margin-left: 550px;
+    color: rgba(0, 0, 122, 0.77);
+}
+
